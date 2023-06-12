@@ -1,5 +1,50 @@
-body {
+body{
     margin: 0;
     box-sizing: border-box;
-    background-color: aquamarine;
+    background-color:aliceblue;
+}
+
+.header {
+    height: 5vh;
+    width: 100vw;
+    background-color:rgb(217, 217, 91);
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.topic {
+    height: 20vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+}
+
+.property {
+    padding: 1px;
+    border-radius: 5%;
+    border: solid;
+    border-color: rgb(217, 217, 91);
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.picture {
+    height: 40px;
+    width: 50px;
+    background-color: rgb(217, 217, 91);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 100vw;
+    background-color:rgb(217, 217, 91);
 }

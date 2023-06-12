@@ -9,39 +9,43 @@ function App() {
     {
       "name": "Anu",
       "age": 25,
-      "hobbies": ["Reading", "Gardening", "Cooking"],
-      "bio": "Alice is a passionate learner who enjoys exploring new technologies."
+      "hobbies": ["Reading", ",gardening", ",cooking"],
+      "bio": "Anu is a passionate learner who enjoys exploring new technologies."
     },
     {
       "name": "Deena",
       "age": 27,
-      "hobbies": ["Playing guitar", "Hiking", "Photography"],
-      "bio": "Bob is a creative individual who loves expressing himself through music and capturing moments with his camera."
+      "hobbies": ["Gaming", ",hiking", ",photography"],
+      "bio": "Deena is a creative individual who loves expressing herself through music and capturing moments with his camera."
     },
     {
       "name": "Urusha",
       "age": 23,
-      "hobbies": ["Painting", "Writing", "Soccer"],
-      "bio": "Charlie is an artist at heart, always seeking inspiration from various forms of art."
+      "hobbies": ["Painting", ",writing", ",soccer"],
+      "bio": "Urusha is an artist at heart, always seeking inspiration from various forms of art."
     },
     {
       "name": "Nicky",
       "age": 29,
-      "hobbies": ["Swimming", "Traveling", "Programming"],
-      "bio": "David is an adventurer who is passionate about coding and exploring the world at the same time."
+      "hobbies": ["Swimming", ",traveling", "'programming"],
+      "bio": "Nicky is an adventurer who is passionate about coding and exploring the world at the same time."
     }
   ]
   
   const displayProfile = people.map(getEachInfo)
   return (
     <>
-    <div className='main'>
-    <div className='header'></div>
-    <div className='individual'>{displayProfile}
-      <h1> {}</h1>
+
+    <div className='header'>
+    <a href="Home">Home</a>
+    <a href="Character">Character</a>
+    <a href="Settings">Settings</a>
     </div>
+    <h className='topic'>Sims Characters</h>
+    <div className='individual'>{displayProfile}</div>
+    <div className='footer'> Copyright@2022</div>
   
-    </div>
+  
     
 
      
