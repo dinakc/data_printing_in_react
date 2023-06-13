@@ -34,6 +34,14 @@ body{
     
 }
 
+.individual {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 30vw;
+
+}
+
 .picture {
     height: 40px;
     width: 50px;
